@@ -17,6 +17,12 @@ import CartPage from './pages/CartPage';
 import Checkout from './pages/Checkout';
 import ProductDetailPage from './pages/ProductDetailPage';
 import Protected from './features/auth/components/Protected';
+import { useEffect } from 'react';
+import { fetchItemsByUserId } from './features/cart/cartAPI';
+import { useDispatch, useSelector } from 'react-redux';
+import { selectLoggedInUser } from './features/auth/authSlice';
+import { fetchItemsByUserIdAsync } from './features/cart/cartSlice';
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -51,6 +57,16 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
+  
+  const dispatch = useDispatch();
+  const user = useSelector(selectLoggedInUser);
+
+  useEffect(()=>{
+    if(user){
+      dispatch( fetchItemsByUserIdAsync(user.id))
+    }
+  },[dispatch])
+
   return (
     <div className="App">
       <RouterProvider router={router} />
@@ -60,59 +76,4 @@ function App() {
 
 export default App;
 
-// import React from 'react';
-// import { Provider } from 'react-redux'; // Import the Provider component
-// import {
-//   createBrowserRouter,
-//   RouterProvider,
-//   Route,
-//   Link,
-// } from 'react-router-dom';
-// import Home from './pages/Home';
-// import LoginPage from './pages/LoginPage';
-// import SignupPage from './pages/SignupPage';
-// import Cart from './features/cart/Cart';
-// import CartPage from './pages/CartPage';
-// import Checkout from './pages/Checkout';
-// import ProductDetailPage from './pages/ProductDetailPage';
-// import store from './store'; // Import your Redux store
 
-// const router = createBrowserRouter([
-//   {
-//     path: '/',
-//     element: <Home></Home>,
-//   },
-//   {
-//     path: '/login',
-//     element: <LoginPage></LoginPage>,
-//   },
-//   {
-//     path: '/signup',
-//     element: <SignupPage></SignupPage>,
-//   },
-//   { 
-//     path: '/cart',
-//     element: <CartPage></CartPage>,
-//   },
-//   { 
-//     path: '/checkout',
-//     element: <Checkout></Checkout>,
-//   },
-//   { 
-//     path: '/product-detail',
-//     element: <ProductDetailPage></ProductDetailPage>,
-//   },
-// ]);
-
-// function App() {
-//   return (
-//     <div className="App">
-//       {/* Wrap your entire application with the Provider component */}
-//       <Provider store={store}>
-//         <RouterProvider router={router} />
-//       </Provider>
-//     </div>
-//   );
-// }
-
-// export default App;
