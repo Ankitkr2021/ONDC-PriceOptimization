@@ -21,8 +21,8 @@ const navigation = [
   { name: 'Team', href: '#', current: false },
 ];
 const userNavigation = [
-  { name: 'Your Profile', link: '/' },
-  { name: 'Settings', link: '/' },
+  { name: 'Your Profile', link: '/profile' },
+  { name: 'My Orders', link: '/orders' },
   { name: 'Sign out', link: '/login' },
 ];
 
@@ -43,7 +43,7 @@ function NavBar({ children }) {
               <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="flex h-16 items-center justify-between">
                   <div className="flex items-center">
-                    <div className="flex-shrink-0">
+                    <div className="flex-shrin k-0">
                       <Link to="/">
                       <img
                         className="h-8 w-8"
