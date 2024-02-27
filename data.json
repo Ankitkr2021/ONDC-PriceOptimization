@@ -4,7 +4,7 @@
       "id": "1",
       "title": "iPhone 9",
       "description": "An apple mobile which is nothing like apple",
-      "price": 549,
+      "price": 833,
       "discountPercentage": 12.96,
       "rating": 4.69,
       "stock": 94,
@@ -15,9 +15,9 @@
         "https://i.dummyjson.com/data/products/1/1.jpg",
         "https://i.dummyjson.com/data/products/1/2.jpg",
         "https://i.dummyjson.com/data/products/1/3.jpg",
-        "https://i.dummyjson.com/data/products/1/4.jpg",
         "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-      ]
+      ],
+      "deleted": true
     },
     {
       "id": "2",
@@ -1838,6 +1838,25 @@
         "https://i.dummyjson.com/data/products/100/3.jpg",
         "https://i.dummyjson.com/data/products/100/thumbnail.jpg"
       ]
+    },
+    {
+      "id": "efc3",
+      "title": "Mack Book Air Pro",
+      "description": "Apple MacOS Laptop ",
+      "brand": "Apple",
+      "category": "laptops",
+      "price": 2001,
+      "discountPercentage": 5,
+      "stock": 100,
+      "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpghttps://i.dummyjson.com/data/products/1/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/6/2.jpg",
+        "https://i.dummyjson.com/data/products/6/2.jpg",
+        "https://i.dummyjson.com/data/products/6/4.jpg",
+        "https://i.dummyjson.com/data/products/1/thumbnail.jpghttps://i.dummyjson.com/data/products/1/thumbnail.jpg"
+      ],
+      "rating": 0,
+      "deleted": true
     }
   ],
   "brands": [
@@ -2436,6 +2455,7 @@
     {
       "id": "37e0",
       "email": "ak8303643@gmail.com",
+      "role": "user",
       "addresses": [
         {
           "name": "Ankit kumar",
@@ -2452,6 +2472,7 @@
     {
       "id": "78f4",
       "email": "theankitkumar080@gmail.com",
+      "role": "admin",
       "addresses": [
         {
           "name": "Ankit Kumar",
@@ -2466,63 +2487,11 @@
       "password": "Ankit@2021"
     },
     {
-      "id": "6041",
-      "email": "test@gmail.com",
-      "addresses": [],
-      "password": "Ankit@2021"
-    },
-    {
-      "id": "eb74",
-      "email": "demo@gmail.com",
-      "addresses": [
-        {
-          "name": "Vivek Raj",
-          "email": "vivekraj09682@gmail.com",
-          "phone": "8765432346",
-          "street": "Chiraura Naubatpur",
-          "city": "Patna",
-          "state": "Bihar",
-          "pinCode": "801109"
-        },
-        {
-          "name": "Ankit Kumar",
-          "email": "ak8303643@gmail.com",
-          "phone": "9661660696",
-          "street": "Nandlalpur NTPC Kahalgaon Bhagalpur Bihar 813222",
-          "city": "Bhagalpur",
-          "state": "Bihar",
-          "pinCode": "813222"
-        }
-      ],
-      "password": "Ankit@2021"
-    },
-    {
-      "id": "926d",
-      "email": "cat@gmail.com",
-      "addresses": [],
-      "password": "Ankit@2021"
-    },
-    {
-      "id": "c6db",
+      "id": "0d04",
       "email": "papa@gmail.com",
-      "addresses": [
-        {
-          "name": "Ankit kumar",
-          "email": "theankitkumar080@gmail.com",
-          "phone": "8709579128",
-          "street": "Nandlalpur NTPC Kahalgaon Bhagalpur Bihar 813222",
-          "city": "Kahalgaon",
-          "state": " Bihar",
-          "pinCode": "813222"
-        }
-      ],
-      "password": "Ankit@2021"
-    },
-    {
-      "id": "902d",
-      "email": "ak8303643@gmail.com",
       "password": "Ankit@2021",
-      "addresses": []
+      "addresses": [],
+      "role": "user"
     }
   ],
   "cart": [
@@ -2605,6 +2574,23 @@
       ],
       "quantity": 1,
       "user": "902d"
+    },
+    {
+      "id": "e64a",
+      "title": "Samsung Universe 9",
+      "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+      "price": 1249,
+      "discountPercentage": 15.46,
+      "rating": 4.09,
+      "stock": 36,
+      "brand": "Samsung",
+      "category": "smartphones",
+      "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/3/1.jpg"
+      ],
+      "quantity": 1,
+      "user": "37e0"
     }
   ],
   "orders": [
@@ -3453,6 +3439,169 @@
         "city": "Ankit",
         "state": "ankti",
         "pinCode": "ankit"
+      }
+    },
+    {
+      "id": "64a7",
+      "items": [
+        {
+          "id": "e814",
+          "title": "iPhone 9",
+          "description": "An apple mobile which is nothing like apple",
+          "price": 549,
+          "discountPercentage": 12.96,
+          "rating": 4.69,
+          "stock": 94,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/1/1.jpg",
+            "https://i.dummyjson.com/data/products/1/2.jpg",
+            "https://i.dummyjson.com/data/products/1/3.jpg",
+            "https://i.dummyjson.com/data/products/1/4.jpg",
+            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": "78f4"
+        }
+      ],
+      "totalAmount": 549,
+      "totalItems": 1,
+      "user": {
+        "id": "78f4",
+        "email": "theankitkumar080@gmail.com",
+        "addresses": [
+          {
+            "name": "Ankit Kumar",
+            "email": "Ankit",
+            "phone": "ANkit ",
+            "street": "Ankit",
+            "city": "Ankit",
+            "state": "ankti",
+            "pinCode": "ankit"
+          }
+        ],
+        "password": "Ankit@2021"
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Ankit Kumar",
+        "email": "Ankit",
+        "phone": "ANkit ",
+        "street": "Ankit",
+        "city": "Ankit",
+        "state": "ankti",
+        "pinCode": "ankit"
+      }
+    },
+    {
+      "id": "0202",
+      "items": [
+        {
+          "id": "7be6",
+          "title": "iPhone 9",
+          "description": "An apple mobile which is nothing like apple",
+          "price": 549,
+          "discountPercentage": 12.96,
+          "rating": 4.69,
+          "stock": 94,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/1/1.jpg",
+            "https://i.dummyjson.com/data/products/1/2.jpg",
+            "https://i.dummyjson.com/data/products/1/3.jpg",
+            "https://i.dummyjson.com/data/products/1/4.jpg",
+            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": "5a01"
+        }
+      ],
+      "totalAmount": 549,
+      "totalItems": 1,
+      "user": {
+        "id": "5a01",
+        "email": "shivam@gmail.com",
+        "password": "Ankit@2021",
+        "addresses": [
+          {
+            "name": "Shivam",
+            "email": "shivam@gmsil.com",
+            "phone": "1234789876543",
+            "street": "d3 802",
+            "city": "hiwd",
+            "state": "ash",
+            "pinCode": "oiahsc"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Shivam",
+        "email": "shivam@gmsil.com",
+        "phone": "1234789876543",
+        "street": "d3 802",
+        "city": "hiwd",
+        "state": "ash",
+        "pinCode": "oiahsc"
+      }
+    },
+    {
+      "id": "f48d",
+      "items": [
+        {
+          "id": "faf4",
+          "title": "Flying Wooden Bird",
+          "description": "Package Include 6 Birds with Adhesive Tape Shape: 3D Shaped Wooden Birds Material: Wooden MDF, Laminated 3.5mm",
+          "price": 51,
+          "discountPercentage": 15.58,
+          "rating": 4.41,
+          "stock": 17,
+          "brand": "Flying Wooden",
+          "category": "home-decoration",
+          "thumbnail": "https://i.dummyjson.com/data/products/27/thumbnail.webp",
+          "images": [
+            "https://i.dummyjson.com/data/products/27/1.jpg",
+            "https://i.dummyjson.com/data/products/27/2.jpg",
+            "https://i.dummyjson.com/data/products/27/3.jpg",
+            "https://i.dummyjson.com/data/products/27/4.jpg",
+            "https://i.dummyjson.com/data/products/27/thumbnail.webp"
+          ],
+          "quantity": 1,
+          "user": "37e0"
+        }
+      ],
+      "totalAmount": 51,
+      "totalItems": 1,
+      "user": {
+        "id": "37e0",
+        "email": "ak8303643@gmail.com",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Ankit kumar",
+            "email": "akf23r",
+            "phone": "pjf2rr",
+            "street": "fefqf",
+            "city": "aa",
+            "state": "aa",
+            "pinCode": "aq"
+          }
+        ],
+        "password": "Ankit@2021"
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Ankit kumar",
+        "email": "akf23r",
+        "phone": "pjf2rr",
+        "street": "fefqf",
+        "city": "aa",
+        "state": "aa",
+        "pinCode": "aq"
       }
     }
   ]
