@@ -119,7 +119,7 @@ const router = createBrowserRouter([
   {
     path: '/orders',
     element: (
-      <UserOrdersPage  ></UserOrdersPage>
+      <UserOrdersPage></UserOrdersPage>
       //we will add page 
     ),
   },
