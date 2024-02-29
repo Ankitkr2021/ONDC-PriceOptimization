@@ -2492,6 +2492,30 @@
       "password": "Ankit@2021",
       "addresses": [],
       "role": "user"
+    },
+    {
+      "id": "8c30",
+      "email": "demo@gmail.com",
+      "password": "Ankit@2021",
+      "addresses": [],
+      "role": "user"
+    },
+    {
+      "id": "947b",
+      "email": "demo@gmail.com",
+      "password": "Ankit@2021",
+      "addresses": [
+        {
+          "name": "Ankit Kumar",
+          "email": "demo@gmail.com",
+          "phone": "8709579128",
+          "street": "Nandlalpur NTPC Kahalgaon Bhagalpur Bihar 813222",
+          "city": "Kahalgaon",
+          "state": "Bihar",
+          "pinCode": "813222"
+        }
+      ],
+      "role": "user"
     }
   ],
   "cart": [
@@ -3602,6 +3626,60 @@
         "city": "aa",
         "state": "aa",
         "pinCode": "aq"
+      }
+    },
+    {
+      "id": "8021",
+      "items": [
+        {
+          "id": "e97a",
+          "title": "iPhone X",
+          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+          "price": 899,
+          "discountPercentage": 17.94,
+          "rating": 4.44,
+          "stock": 34,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/2/1.jpg",
+            "https://i.dummyjson.com/data/products/2/2.jpg",
+            "https://i.dummyjson.com/data/products/2/3.jpg",
+            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": "947b"
+        }
+      ],
+      "totalAmount": 899,
+      "totalItems": 1,
+      "user": {
+        "id": "947b",
+        "email": "demo@gmail.com",
+        "password": "Ankit@2021",
+        "addresses": [
+          {
+            "name": "Ankit Kumar",
+            "email": "demo@gmail.com",
+            "phone": "8709579128",
+            "street": "Nandlalpur NTPC Kahalgaon Bhagalpur Bihar 813222",
+            "city": "Kahalgaon",
+            "state": "Bihar",
+            "pinCode": "813222"
+          }
+        ],
+        "role": "user"
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Ankit Kumar",
+        "email": "demo@gmail.com",
+        "phone": "8709579128",
+        "street": "Nandlalpur NTPC Kahalgaon Bhagalpur Bihar 813222",
+        "city": "Kahalgaon",
+        "state": "Bihar",
+        "pinCode": "813222"
       }
     }
   ]
